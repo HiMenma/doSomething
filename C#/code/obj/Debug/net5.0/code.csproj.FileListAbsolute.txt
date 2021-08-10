@@ -1,0 +1,15 @@
+/Users/Me/Desktop/doSomething/C#/code/obj/Debug/net5.0/code.csproj.AssemblyReference.cache
+/Users/Me/Desktop/doSomething/C#/code/obj/Debug/net5.0/code.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Me/Desktop/doSomething/C#/code/obj/Debug/net5.0/code.AssemblyInfoInputs.cache
+/Users/Me/Desktop/doSomething/C#/code/obj/Debug/net5.0/code.AssemblyInfo.cs
+/Users/Me/Desktop/doSomething/C#/code/obj/Debug/net5.0/code.csproj.CoreCompileInputs.cache
+/Users/Me/Desktop/doSomething/C#/code/bin/Debug/net5.0/code.deps.json
+/Users/Me/Desktop/doSomething/C#/code/bin/Debug/net5.0/code.runtimeconfig.json
+/Users/Me/Desktop/doSomething/C#/code/bin/Debug/net5.0/code.runtimeconfig.dev.json
+/Users/Me/Desktop/doSomething/C#/code/bin/Debug/net5.0/code.dll
+/Users/Me/Desktop/doSomething/C#/code/bin/Debug/net5.0/ref/code.dll
+/Users/Me/Desktop/doSomething/C#/code/bin/Debug/net5.0/code.pdb
+/Users/Me/Desktop/doSomething/C#/code/obj/Debug/net5.0/code.dll
+/Users/Me/Desktop/doSomething/C#/code/obj/Debug/net5.0/ref/code.dll
+/Users/Me/Desktop/doSomething/C#/code/obj/Debug/net5.0/code.pdb
+/Users/Me/Desktop/doSomething/C#/code/obj/Debug/net5.0/code.genruntimeconfig.cache
