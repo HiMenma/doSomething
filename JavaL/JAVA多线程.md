@@ -49,3 +49,31 @@ synchronized（object）{} //锁同步块
 ```
 
 14.避免死锁：不要在同一个代码块中，同时持有多个对象的锁。
+
+15.生产者消费者：
+
+​	（1）管程法，利用缓冲区；this.wait()进入阻塞状态，并释放锁；this.notifyall()唤醒阻塞后的线程重新工作。
+
+​	（2）信号灯法：利用标志位来控制，wait和notifyAll。
+
+16.线程池：
+
+```java
+public class TestThreadPool {
+    public static void main(String[] args) {
+        //核心线程数量，最大线程数量，存活时间，时间单位，等待队列大小，线程工厂类型，拒绝策略
+        ExecutorService executorService = new ThreadPoolExecutor(3, 5, 1L, TimeUnit.SECONDS, new ArrayBlockingQueue<>(3), Executors.defaultThreadFactory(), new ThreadPoolExecutor.AbortPolicy());
+        for (int i = 0; i < 8; i++) {
+            executorService.execute(()->{
+                System.out.println(Thread.currentThread().getName() + "====》在办理业务");
+            });
+        }
+        executorService.shutdown(); //关闭
+    }
+}
+```
+
+![](C:\Users\Menma\Desktop\code\doSomething\JavaL\线程池1.jpg)
+
+优点：1.提高线程的利用率和响应速度；2.便于统一管理线程对象；3.可以控制最大的并发数。
+
