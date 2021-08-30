@@ -149,6 +149,9 @@ ObjectOutputStream / ObjectInputStream
 
 使用流传输对象的过程称为序列化、反序列化
 
+- 对于不想进⾏序列化的变量，使⽤ transient 关键字修饰。
+  transient 关键字的作⽤是：阻⽌实例中那些⽤此关键字修饰的的变量序列化；当对象被反序列化时，被 transient 修饰的变量值不会被持久化和恢复。transient 只能修饰变量，不能修饰类和⽅法。
+
 ##### 4.1序列化
 
 ```java
