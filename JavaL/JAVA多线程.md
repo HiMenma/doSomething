@@ -1,4 +1,4 @@
-JAVA多线程
+# JAVA多线程
 
 1.继承Thread类，重写run方法，创建子类对象，在调用start。
 
@@ -50,13 +50,13 @@ synchronized（object）{} //锁同步块
 
 14.避免死锁：不要在同一个代码块中，同时持有多个对象的锁。
 
-15.生产者消费者：
+##### 15.生产者消费者：
 
 ​	（1）管程法，利用缓冲区；this.wait()进入阻塞状态，并释放锁；this.notifyall()唤醒阻塞后的线程重新工作。
 
 ​	（2）信号灯法：利用标志位来控制，wait和notifyAll。
 
-16.线程池：
+## 16.线程池：
 
 ```java
 public class TestThreadPool {

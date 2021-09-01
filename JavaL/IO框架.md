@@ -8,9 +8,17 @@
 
 - 方向：输入和输出流
 - 单位：字节和字符流
-- 功能：节点和过滤流
+- 功能：节点和过滤（处理）流。 
+
+![](C:\Users\Menma\AppData\Roaming\Typora\typora-user-images\image-20210831170052947.png)
+
+![image-20210831170252199](C:\Users\Menma\AppData\Roaming\Typora\typora-user-images\image-20210831170252199.png)
 
 ![](C:\Users\Menma\Desktop\code\doSomething\JavaL\IO.png)
+
+
+
+
 
 ### 3.字节流
 
@@ -150,7 +158,7 @@ ObjectOutputStream / ObjectInputStream
 使用流传输对象的过程称为序列化、反序列化
 
 - 对于不想进⾏序列化的变量，使⽤ transient 关键字修饰。
-  transient 关键字的作⽤是：阻⽌实例中那些⽤此关键字修饰的的变量序列化；当对象被反序列化时，被 transient 修饰的变量值不会被持久化和恢复。transient 只能修饰变量，不能修饰类和⽅法。
+  **transient** 关键字的作⽤是：阻⽌实例中那些⽤此关键字修饰的的变量序列化；当对象被反序列化时，被 transient 修饰的变量值不会被持久化和恢复。transient 只能修饰变量，不能修饰类和⽅法。
 
 ##### 4.1序列化
 
@@ -217,6 +225,8 @@ public class Student implements Serializable {  //标记可以序列化implement
 ```
 
 ### 5.字符流
+
+- **字符流的意义**：字符流是由 Java 虚拟机将字节转换得到的，问题就出在这个过程还算是**⾮常耗时**，并且，如果我们不知道编码类型就很容易出现**乱码**问题。所以， I/O 流就⼲脆提供了⼀个直接操作字符的接⼝，⽅便我们平时对字符进⾏流操作。如果⾳频⽂件、图⽚等媒体⽂件⽤字节流⽐᫾好，如果涉及到字符的话使⽤字符流⽐᫾好
 
 ##### 5.1字符流的父类（抽象类）
 
@@ -327,7 +337,7 @@ public class PrintStream {
 
 - 桥转换流 `InputStreamReader / OutputStreamWriter`
 - 可将字节流转换为字符流
-- 可设置字符的编码方式
+- 可**设置字符的编码方式**
 
 ```java
 public class TransferStream {
