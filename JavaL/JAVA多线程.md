@@ -73,7 +73,7 @@ public class TestThreadPool {
 }
 ```
 
-![](C:\Users\Menma\Desktop\code\doSomething\JavaL\线程池1.jpg)
+![](https://i.loli.net/2021/09/02/Mp3xOmjbX4dkhPo.jpg)
 
 优点：1.提高线程的利用率和响应速度；2.便于统一管理线程对象；3.可以控制最大的并发数。
 
