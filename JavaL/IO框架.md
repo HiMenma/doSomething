@@ -10,11 +10,11 @@
 - 单位：字节和字符流
 - 功能：节点和过滤（处理）流。 
 
-![](C:\Users\Menma\AppData\Roaming\Typora\typora-user-images\image-20210831170052947.png)
+![](https://i.loli.net/2021/10/16/2nTreHL8oEpsQwm.png)
 
-![image-20210831170252199](C:\Users\Menma\AppData\Roaming\Typora\typora-user-images\image-20210831170252199.png)
+![image-20210831170252199](https://i.loli.net/2021/10/16/9vs1hrkpTYZqHGx.png)
 
-![](C:\Users\Menma\Desktop\code\doSomething\JavaL\IO.png)
+![](https://i.loli.net/2021/10/16/a8xPQdEVm3NFyoG.png)
 
 
 
